@@ -15,6 +15,7 @@ import android.widget.EditText;
 import com.bignerdranch.android.criminalintent.CrimeActivity;
 import com.bignerdranch.android.criminalintent.R;
 import com.bignerdranch.android.criminalintent.utils.Crime;
+import com.bignerdranch.android.criminalintent.utils.CrimeLab;
 
 import java.util.UUID;
 
@@ -70,6 +71,6 @@ public class CrimeFragment extends Fragment {
         super.onCreate(savedInstanceState);
         UUID crimeId=(UUID)getActivity().getIntent()
                 .getSerializableExtra(CrimeActivity.EXTRA_CRIME_ID);
-        //mCrime = CrimeLab.get(getActivity().getCrime(crimeId));
+        mCrime = CrimeLab.get(getActivity()).getCrime(crimeId);
     }
 }
