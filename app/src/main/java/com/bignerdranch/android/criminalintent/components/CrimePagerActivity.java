@@ -23,7 +23,7 @@ import java.util.UUID;
 
 public class CrimePagerActivity extends FragmentActivity {
 
-    private static final String EXTRA_CRIME_ID = "com.bignerdranch.android.criminalintent.crime_id";
+    private static final String EXTRA_CRIME_ID = "com.bignerdranch.android.criminalintent.components.crime_id";
 
     private ViewPager mViewPager;
     private List<Crime> mCrimes;
@@ -37,7 +37,6 @@ public class CrimePagerActivity extends FragmentActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         setContentView(R.layout.activity_crime_pager);
 
         UUID crimeId = (UUID) getIntent()
