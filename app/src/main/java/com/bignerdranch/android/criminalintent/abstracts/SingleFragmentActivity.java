@@ -8,7 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import com.bignerdranch.android.criminalintent.R;
 
 /**
- * Created by Warlock Aleks on 20.08.2016.
+ * Created by Warlock Aleks on 20.08.2016.   261
  */
 
 public abstract class SingleFragmentActivity extends AppCompatActivity {
