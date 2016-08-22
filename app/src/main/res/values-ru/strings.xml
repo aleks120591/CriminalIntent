@@ -12,4 +12,8 @@
     <string name="crime_title">Заголовог</string>
     <string name="date_picker_title">Дата для crime:</string>
     <string name="time_picker_title">Время для crime:</string>
+    <string name="hide_subtitle">Скрыть субтитры</string>
+    <string name="new_crime">Новый Crime</string>
+    <string name="show_subtitle">Показать субтитры</string>
+    <string name="subtitle_format">%1$s crimes</string>
 </resources>
