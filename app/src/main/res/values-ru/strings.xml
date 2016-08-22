@@ -11,4 +11,5 @@
     <string name="crime_date">Дата</string>
     <string name="crime_title">Заголовог</string>
     <string name="date_picker_title">Дата для crime:</string>
+    <string name="time_picker_title">Время для crime:</string>
 </resources>
