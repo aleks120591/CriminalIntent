@@ -4,10 +4,10 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager;
+import android.support.v7.app.AppCompatActivity;
 
 import com.bignerdranch.android.criminalintent.R;
 import com.bignerdranch.android.criminalintent.fragment.CrimeFragment;
@@ -21,7 +21,7 @@ import java.util.UUID;
  * Created by Warlock on 22.08.2016.
  */
 
-public class CrimePagerActivity extends FragmentActivity {
+public class CrimePagerActivity extends AppCompatActivity {
 
     private static final String EXTRA_CRIME_ID = "com.bignerdranch.android.criminalintent.components.crime_id";
 
