@@ -108,7 +108,7 @@ public class CrimeFragment extends Fragment {
     }
 
     private void updateDate() {
-        mDateButton.setText(mCrime.getTitle().toString());
+        mDateButton.setText(mCrime.getDate().toString());
     }
 
     @Override
