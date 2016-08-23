@@ -16,4 +16,5 @@
     <string name="new_crime">Новый Crime</string>
     <string name="show_subtitle">Показать субтитры</string>
     <string name="subtitle_format">%1$s crimes</string>
+    <string name="delete_crime">Удалить</string>
 </resources>
