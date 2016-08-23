@@ -17,6 +17,13 @@
     <string name="show_subtitle">Показать субтитры</string>
     <string name="subtitle_format">%1$s crimes</string>
     <string name="delete_crime">Удалить</string>
-    <string name="crime_report_text" translatable="false">Отправить Crime доклад</string>
-    <string name="crime_suspect_text">Выберите подозреваемый</string>
+    <string name="crime_report_text">Отправить Crime доклад</string>
+    <string name="crime_suspect_text">Выберите подозреваемого</string>
+    <string name="crime_report">%1$s! Преступление было обнаружено на %2$s. %3$s, and %4$s</string>
+    <string name="crime_report_solved">Дело решается</string>
+    <string name="crime_report_unsolved">Дело не решено</string>
+    <string name="crime_report_no_suspect">нет подозреваемого.</string>
+    <string name="crime_report_subject">Преступный умысел Доклад преступности</string>
+    <string name="crime_report_suspect">подозреваймый %s</string>
+    <string name="send_report">Отправить отчет преступления с помощью</string>
 </resources>
