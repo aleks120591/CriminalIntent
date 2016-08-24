@@ -144,15 +144,15 @@ public class CrimeFragment extends Fragment {
         boolean canTakePhoto = mPhotoFile != null && captureImage.resolveActivity(packageManager) != null;
         mPhotoButton.setEnabled(canTakePhoto);
 
-        if (canTakePhoto){
-            Uri uri=Uri.fromFile(mPhotoFile);
-            captureImage.putExtra(MediaStore.EXTRA_OUTPUT,uri);
+        if (canTakePhoto) {
+            Uri uri = Uri.fromFile(mPhotoFile);
+            captureImage.putExtra(MediaStore.EXTRA_OUTPUT, uri);
         }
 
         mPhotoButton.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivityForResult(captureImage,REQUEST_PHOTO);
+                startActivityForResult(captureImage, REQUEST_PHOTO);
             }
         });
 
