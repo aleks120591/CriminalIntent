@@ -2,13 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.bignerdranch.android.criminalintent">
 
-    <uses-permission
-        android:name="android.permission.READ_EXTERNAL_STORAGE"
-        android:maxSdkVersion="18"/>
-
-    <uses-feature
-        android:name="android.hardware.camera2"
-        android:required="false"/>
 
     <application
         android:allowBackup="true"
@@ -16,23 +9,14 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <activity
-            android:name=".controllers.CrimeListActivity"
-            android:label="@string/app_name"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme">
+            android:name=".CrimeActivity"
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
-
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity
-            android:name=".components.CrimePagerActivity"
-            android:label="@string/app_name"
-            android:parentActivityName=".controllers.CrimeListActivity">
-
-        </activity>
     </application>
-
 </manifest>
