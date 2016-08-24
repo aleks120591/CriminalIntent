@@ -37,7 +37,7 @@ public class CrimeFragment extends Fragment {
 
             @Override
             public void onTextChanged(CharSequence c, int start, int before, int count) {
-
+                mCrime.setTitle(c.toString());
             }
 
             @Override
