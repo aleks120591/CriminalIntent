@@ -28,19 +28,16 @@ public class CrimeFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup parent, Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_crime, parent, false);
 
-        mTitleField=(EditText)v.findViewById(R.id.crime_title);
+        mTitleField = (EditText) v.findViewById(R.id.crime_title);
         mTitleField.addTextChangedListener(new TextWatcher() {
-            @Override
-            public void beforeTextChanged(CharSequence c, int start, int count, int after) {
-
-            }
-
-            @Override
             public void onTextChanged(CharSequence c, int start, int before, int count) {
                 mCrime.setTitle(c.toString());
             }
 
-            @Override
+            public void beforeTextChanged(CharSequence c, int start, int count, int after) {
+
+            }
+
             public void afterTextChanged(Editable c) {
 
             }
