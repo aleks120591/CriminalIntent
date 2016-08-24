@@ -5,10 +5,6 @@ import android.os.Bundle;
 
 import java.util.ArrayList;
 
-/**
- * Created by Warlock on 24.08.2016.
- */
-
 public class CrimeListFragment extends ListFragment {
 
     private ArrayList<Crime> mCrimes;
