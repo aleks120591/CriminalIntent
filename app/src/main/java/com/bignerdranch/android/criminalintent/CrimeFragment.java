@@ -13,10 +13,6 @@ import android.widget.CompoundButton;
 import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.EditText;
 
-/**
- * Created by Warlock on 24.08.2016.
- */
-
 public class CrimeFragment extends Fragment {
 
     private Crime mCrime;

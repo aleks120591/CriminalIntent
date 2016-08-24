@@ -5,10 +5,6 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 
-/**
- * Created by Warlock on 24.08.2016.
- */
-
 public class CrimeActivity extends FragmentActivity {
 
     @Override

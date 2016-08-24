@@ -3,10 +3,6 @@ package com.bignerdranch.android.criminalintent;
 import java.util.Date;
 import java.util.UUID;
 
-/**
- * Created by Warlock on 24.08.2016.
- */
-
 public class Crime {
 
     private UUID mId;
