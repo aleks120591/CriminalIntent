@@ -37,10 +37,15 @@ public class CrimeListFragment extends ListFragment {
         startActivity(i);
     }
 
+    @Override
+    public void onResume() {
+        super.onResume();
+        ((CrimeAdapter)getListAdapter()).notifyDataSetChanged();
+    }
 
     /*
-    * ADAPTER
-    */
+        * ADAPTER
+        */
     private class CrimeAdapter extends ArrayAdapter<Crime> {
 
         public CrimeAdapter(ArrayList<Crime> crimes) {
