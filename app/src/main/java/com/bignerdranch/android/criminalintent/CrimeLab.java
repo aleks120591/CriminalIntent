@@ -15,6 +15,7 @@ public class CrimeLab {
     private CrimeLab(Context appContext) {
         mAppContext = appContext;
         mCrimes = new ArrayList<Crime>();
+
         for (int i = 0; i < 100; i++) {
             Crime c = new Crime();
             c.setTitle("Crime #" + i);
@@ -30,7 +31,7 @@ public class CrimeLab {
         return sCrimeLab;
     }
 
-    public ArrayList<Crime> getCrimes() {
+    ArrayList<Crime> getCrimes() {
         return mCrimes;
     }
 
