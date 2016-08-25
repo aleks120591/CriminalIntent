@@ -42,4 +42,9 @@ public class Crime {
     public void setDate(Date date) {
         mDate = date;
     }
+
+    @Override
+    public String toString(){
+        return mTitle;
+    }
 }
