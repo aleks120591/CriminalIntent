@@ -159,8 +159,7 @@ public class CrimeListFragment extends Fragment {
 
         @Override
         public CrimeHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-            LayoutInflater layoutInflater = LayoutInflater.from(getActivity());
-            View view = layoutInflater
+            View view = LayoutInflater.from(getActivity())
                     .inflate(R.layout.list_item_crime, parent, false);
             return new CrimeHolder(view);
         }
